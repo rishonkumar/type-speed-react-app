@@ -1,0 +1,38 @@
+.nav-container {
+  display: flex;
+  height: 72px;
+  align-items: center;
+  background: purple;
+  margin: 0;
+  justify-content: space-between;
+  z-index: 99;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 20px;
+  height: 40px;
+}
+
+.logo-text {
+  font-family: "Bangers", cursive;
+  font-size: 60px;
+  letter-spacing: 1px;
+  margin: 0 10px;
+  color: whitesmoke;
+}
+
+.nav-right {
+  margin-right: 40px;
+  /* background-color: whitesmoke; */
+}
+
+.nav-link {
+  font-size: 32px;
+  color: whitesmoke;
+  font-weight: 800px;
+}
